@@ -1,0 +1,264 @@
+/* Стиль поля */
+.container {
+    width: 450px;
+    height: 450px;
+    border: 1px solid gray;
+    background-color: transparent;
+}
+
+.game-field {
+    display: grid;
+    grid-template-columns: 50px 50px 50px 50px 50px 50px 50px 50px;
+    grid-template-rows: 50px 50px 50px 50px 50px 50px 50px 50px;
+    width: 400px;
+    height: 400px;
+    padding: 25px;
+}
+
+/* Стиль клеток для игрового поля */
+.ceil {
+    background-color: white;
+    border: 1px solid rgba(228, 226, 226, 0.945);
+}
+
+.ceil-black {
+    background-color: black;
+}
+
+/* Задан цвет клеток при клике - синий для исходной позиции,
+   зеленый - для возможных ходов */
+ .blue {
+    background-color: blue; 
+}
+
+.green {
+    background-color: green;
+}
+
+/* Добавлены цифры слева от поля */
+#a8::before {
+    content: '8';
+    position: absolute;
+    top: 50px;
+    left: 15px;
+}
+
+#a7::before {
+    content: '7';
+    position: absolute;
+    top: 100px;
+    left: 15px;
+}
+
+#a6::before {
+    content: '6';
+    position: absolute;
+    top: 150px;
+    left: 15px;
+}
+
+#a5::before {
+    content: '5';
+    position: absolute;
+    top: 200px;
+    left: 15px;
+}
+
+#a4::before {
+    content: '4';
+    position: absolute;
+    top: 250px;
+    left: 15px;
+}
+
+#a3::before {
+    content: '3';
+    position: absolute;
+    top: 300px;
+    left: 15px;
+}
+
+#a2::before {
+    content: '2';
+    position: absolute;
+    top: 350px;
+    left: 15px;
+}
+
+#a1::before {
+    content: '1';
+    position: absolute;
+    top: 400px;
+    left: 15px;
+}
+
+/* Добавлены цифры справа от поля */
+#h8::before {
+    content: '8';
+    position: absolute;
+    top: 50px;
+    left: 440px;
+}
+
+#h7::before {
+    content: '7';
+    position: absolute;
+    top: 100px;
+    left: 440px;
+}
+
+#h6::before {
+    content: '6';
+    position: absolute;
+    top: 150px;
+    left: 440px;
+}
+
+#h5::before {
+    content: '5';
+    position: absolute;
+    top: 200px;
+    left: 440px;
+}
+
+#h4::before {
+    content: '4';
+    position: absolute;
+    top: 250px;
+    left: 440px;
+}
+
+#h3::before {
+    content: '3';
+    position: absolute;
+    top: 300px;
+    left: 440px;
+}
+
+#h2::before {
+    content: '2';
+    position: absolute;
+    top: 350px;
+    left: 440px;
+}
+
+#h1::before {
+    content: '1';
+    position: absolute;
+    top: 400px;
+    left: 440px;
+}
+
+/* Добавлены буквы сверху от поля */
+#a8::after {
+    content: 'A';
+    position: absolute;
+    top: 10px;
+    left: 50px;
+}
+
+#b8::after {
+    content: 'B';
+    position: absolute;
+    top: 10px;
+    left: 100px;
+}
+
+#c8::after {
+    content: 'C';
+    position: absolute;
+    top: 10px;
+    left: 150px;
+}
+
+#d8::after {
+    content: 'D';
+    position: absolute;
+    top: 10px;
+    left: 200px;
+}
+
+#e8::after {
+    content: 'E';
+    position: absolute;
+    top: 10px;
+    left: 250px;
+}
+
+#f8::after {
+    content: 'F';
+    position: absolute;
+    top: 10px;
+    left: 300px;
+}
+
+#g8::after {
+    content: 'G';
+    position: absolute;
+    top: 10px;
+    left: 350px;
+}
+
+#h8::after {
+    content: 'H';
+    position: absolute;
+    top: 10px;
+    left: 400px;
+}
+
+/* Добавлены буквы снизу от поля */
+#a1::after {
+    content: 'A';
+    position: absolute;
+    top: 440px;
+    left: 50px;
+}
+
+#b1::after {
+    content: 'B';
+    position: absolute;
+    top: 440px;
+    left: 100px;
+}
+
+#c1::after {
+    content: 'C';
+    position: absolute;
+    top: 440px;
+    left: 150px;
+}
+
+#d1::after {
+    content: 'D';
+    position: absolute;
+    top: 440px;
+    left: 200px;
+}
+
+#e1::after {
+    content: 'E';
+    position: absolute;
+    top: 440px;
+    left: 250px;
+}
+
+#f1::after {
+    content: 'F';
+    position: absolute;
+    top: 440px;
+    left: 300px;
+}
+
+#g1::after {
+    content: 'G';
+    position: absolute;
+    top: 440px;
+    left: 350px;
+}
+
+#h1::after {
+    content: 'H';
+    position: absolute;
+    top: 440px;
+    left: 400px;
+}
